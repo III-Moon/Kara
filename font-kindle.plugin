@@ -4,7 +4,7 @@
 [URL Rewrite]
 
 
-# ^https://s3.amazonaws.com/maes-appexpan-protected-prod/STFontSC/STYuanMedium-2018-02-16.ttf.+ https://github.com/III-Moon/Kara/releases/download/v1.0.0/STZhongyuan.ttf 302
+^https://s3.amazonaws.com/maes-appexpan-protected-prod/STFontSC/STYuanMedium-2018-02-16.ttf.+ https://github.com/III-Moon/Kara/releases/download/v1.0.0/STZhongyuan.ttf 302
 
 # ^https://s3.amazonaws.com/maes-appexpan-protected-prod/STFontSC/STKaitiSC.ttf.+
 # ^https://s3.amazonaws.com/maes-appexpan-protected-prod/STFontSC/STHeitiSC.ttf.+
