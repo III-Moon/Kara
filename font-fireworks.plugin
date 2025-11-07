@@ -1,0 +1,12 @@
+#!name=Fireworks Fonts Customize
+#!desc=自定义花火阅读字体
+
+[URL Rewrite]
+
+^https://gentleflow.coding.net/p/fireworks-reader/d/fireworks_public_resource/git/raw/master/font/siyuansong.otf.+ https://raw.githubusercontent.com/adobe-fonts/source-han-serif/release/Variable/OTF/SourceHanSerifSC-VF.otf 302
+
+# ^https://gentleflow.coding.net/p/fireworks-reader/d/fireworks_public_resource/git/raw/master/font/siyuanhei.otf.+ 
+
+[MITM]
+
+hostname = %APPEND% gentleflow.coding.net
